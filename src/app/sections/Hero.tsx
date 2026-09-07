@@ -140,12 +140,12 @@ export default function Hero() {
                 key={item.label}
                 href={item.href}
                 className={`text-[11px] font-medium uppercase tracking-[0.22em] ${
-                  item.active
+                  "active" in item && item.active
                     ? "text-charcoal"
                     : "text-charcoal/70 hover:text-charcoal"
                 }`}
               >
-                <span className={item.active ? "border-b border-gold pb-1" : undefined}>
+                <span className={"active" in item && item.active ? "border-b border-gold pb-1" : undefined}>
                   {item.label}
                 </span>
               </Link>
