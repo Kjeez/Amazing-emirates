@@ -1,26 +1,80 @@
+@config "../../tailwind.config.ts";
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ivory: #f8f6f1;
+  --color-sand: #f2ece4;
+  --color-gold: #b28843;
+  --color-emerald: #006d5b;
+  --color-charcoal: #1a1a1a;
+  --color-warmgray: #8c8c8c;
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans: var(--font-inter), Inter, system-ui, sans-serif;
+  --tracking-widest: 0.2em;
+  --animate-marquee: marquee 20s linear infinite;
+  --animate-scroll-hint: scroll-hint 1.8s ease-in-out infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #f8f6f1;
+  --foreground: #1a1a1a;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+.hero-rays {
+  background:
+    radial-gradient(
+      ellipse 70% 55% at 82% 8%,
+      rgb(178 136 67 / 0.22),
+      transparent 58%
+    ),
+    radial-gradient(
+      ellipse 45% 40% at 70% 0%,
+      rgb(178 136 67 / 0.1),
+      transparent 55%
+    ),
+    repeating-linear-gradient(
+      118deg,
+      transparent 0,
+      transparent 46px,
+      rgb(178 136 67 / 0.035) 46px,
+      rgb(178 136 67 / 0.035) 48px
+    );
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-hint {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
 }
