@@ -100,7 +100,7 @@ export default function ApplyCTA() {
           A<br />
           Stronger
           <br />
-          Emirates
+          Emiratis
         </p>
         <span className="mt-4 block h-10 w-px bg-gold/40" />
       </div>
@@ -120,7 +120,7 @@ export default function ApplyCTA() {
           </h2>
 
           <p className="mb-14 max-w-[500px] text-[13px] leading-relaxed tracking-wide text-warmgray md:text-sm">
-            Be part of a curated platform that celebrates the visionaries, leaders and change-makers shaping the Emirates.
+            Be part of a curated platform that celebrates the visionaries, leaders and change-makers shaping the Emiratis.
           </p>
         </div>
 

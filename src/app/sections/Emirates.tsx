@@ -361,7 +361,7 @@ export default function Emirates() {
     <section
       ref={sectionRef}
       className="relative isolate flex h-screen flex-col overflow-hidden bg-sand px-6 pb-8 pt-10 md:px-10 lg:px-14 xl:px-20"
-      aria-label="The Emirates"
+      aria-label="The Emiratis"
     >
       {/* UAE coastline texture */}
       <div className="pointer-events-none absolute inset-0 z-0">
@@ -395,7 +395,7 @@ export default function Emirates() {
           Explore
         </p>
         <h2 className="font-serif text-5xl font-normal leading-none text-gold md:text-6xl lg:text-7xl">
-          The Emirates
+          The Emiratis
         </h2>
 
         {/* Gold diamond rule */}
@@ -406,7 +406,7 @@ export default function Emirates() {
         </div>
 
         <p className="mx-auto mt-5 max-w-md text-[10px] font-medium uppercase tracking-[0.26em] text-charcoal/50">
-          Seven Emirates. A shared legacy of extraordinary people.
+          Seven Emirates. A shared legacy of extraordinary Emiratis.
         </p>
       </div>
 

@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Amazing Emirates — The Definitive Archive",
+  title: "Amazing Emiratis — The Definitive Archive",
   description:
     "A curated directory of the UAE's most influential leaders, innovators, artists and changemakers.",
 };

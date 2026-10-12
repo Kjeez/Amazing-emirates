@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
@@ -12,7 +12,7 @@ const STATS = [
     value: 247,
     display: "247",
     label: "Profiles",
-    sub: "Extraordinary individuals\nfrom across the Emirates.",
+    sub: "Extraordinary individuals\nfrom across the Emiratis.",
     yPct: 0,
   },
   {
@@ -252,7 +252,7 @@ export default function ByTheNumbers() {
           <Diamond className="h-1.5 w-1.5 opacity-50" />
           <span>Opportunities</span>
           <Diamond className="h-1.5 w-1.5 opacity-50" />
-          <span>A Stronger Emirates</span>
+          <span>A Stronger Emiratis</span>
         </p>
       </div>
 
@@ -326,7 +326,7 @@ export default function ByTheNumbers() {
       >
         <span className="h-px w-16 bg-gold/50" />
         <p className="text-[9px] font-medium uppercase tracking-[0.32em] text-charcoal/45">
-          The Emirates Move the World
+          The Emiratis Move the World
         </p>
         <span className="h-px w-16 bg-gold/50" />
       </div>

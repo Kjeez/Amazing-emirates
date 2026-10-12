@@ -29,7 +29,7 @@ const COLUMNS = [
   {
     title: "Global Visibility",
     description:
-      "A powerful platform that showcases Emirates excellence to a global audience of opportunities.",
+      "A powerful platform that showcases Emiratis excellence to a global audience of opportunities.",
     icon: (
       <svg viewBox="0 0 48 48" className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth="1.25">
         <circle cx="24" cy="24" r="16" />
@@ -63,7 +63,7 @@ export default function WhyUs() {
             data-draw-copy
             className="mt-4 font-serif text-4xl text-gold md:text-5xl lg:text-[3.25rem]"
           >
-            Why Amazing Emirates
+            Why Amazing Emiratis
           </h2>
           <div className="mt-6 flex items-center justify-center gap-3">
             <span className="h-px w-16 bg-gold md:w-24" />

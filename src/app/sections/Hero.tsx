@@ -126,7 +126,7 @@ export default function Hero() {
           <Link href="/" className="inline-flex shrink-0 items-center">
             <Image
               src="/logo.png"
-              alt="Amazing Emirates"
+              alt="Amazing Emiratis"
               width={137}
               height={114}
               priority
@@ -180,7 +180,7 @@ export default function Hero() {
             >
               <span className="block lg:whitespace-nowrap">The Definitive</span>
               <span className="block lg:whitespace-nowrap">Archive of</span>
-              <span className="block lg:whitespace-nowrap">Emirates Excellence</span>
+              <span className="block lg:whitespace-nowrap">Emiratis Excellence</span>
             </h1>
             <GoldRule width="mt-6 w-24 lg:w-28" />
             <p className="mt-6 max-w-md text-[17px] leading-8 text-charcoal/85">
@@ -236,7 +236,7 @@ export default function Hero() {
           <br />
           Brighter
           <br />
-          Emirates
+          Emiratis
         </p>
         <span className="mt-3 block h-[1.5px] w-10 bg-gold" />
       </div>

@@ -111,7 +111,7 @@ export default function Footer() {
       {/* Top Header */}
       <div className="mx-auto mb-20 flex max-w-[1400px] items-center justify-between px-6 md:px-12 lg:px-20">
         <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-gold">
-          Amazing Emirates
+          Amazing Emiratis
         </p>
         <div className="flex items-center gap-6">
           <p className="text-[10px] font-semibold uppercase tracking-[0.4em] text-charcoal/50">
@@ -127,7 +127,7 @@ export default function Footer() {
         {/* Col 1 */}
         <div className="flex w-full flex-col lg:w-[38%] lg:border-r lg:border-gold/30 lg:pr-14">
           <h2 className="font-serif text-4xl leading-[1.1] tracking-tight text-charcoal md:text-5xl lg:text-[3.5rem]">
-            The definitive<br />archive<br />of Emirates<br />excellence.
+            The definitive<br />archive<br />of Emiratis<br />excellence.
           </h2>
           <span className="my-8 block h-px w-16 bg-gold" />
           <p className="mb-14 max-w-[320px] text-[15px] leading-[1.8] text-charcoal/60">
@@ -239,7 +239,7 @@ export default function Footer() {
         <div ref={wordmarkRef} className="relative z-10 w-full flex items-center justify-center" style={{ transformOrigin: "bottom center" }}>
           <Image
             src="/footerlogo.png"
-            alt="Amazing Emirates"
+            alt="Amazing Emiratis"
             width={1200}
             height={200}
             className="h-auto w-[90%] md:w-[80%] lg:w-[100%] max-w-[1200px]"
@@ -263,7 +263,7 @@ export default function Footer() {
       {/* Bottom Legal / Copyright */}
       <div className="relative z-10 mx-auto flex w-full max-w-[1400px] flex-col-reverse items-center justify-between gap-6 px-6 pb-8 md:flex-row md:px-12 lg:px-20">
         <p className="text-[9px] font-semibold uppercase tracking-[0.2em] text-charcoal/40">
-          © 2024 Amazing Emirates. All rights reserved.
+          © 2024 Amazing Emiratis. All rights reserved.
         </p>
         <div className="flex items-center gap-6">
           <Link href="#" className="text-[9px] font-semibold uppercase tracking-[0.2em] text-charcoal/40 transition-colors hover:text-emerald">Privacy Policy</Link>
