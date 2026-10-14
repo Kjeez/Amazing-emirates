@@ -15,6 +15,11 @@ const config: Config = {
         emerald: "#006D5B",
         charcoal: "#1A1A1A",
         warmgray: "#8C8C8C",
+        crimson: {
+          DEFAULT: "#C8102E",
+          hover: "#A50D24",
+          light: "#FDF2F4",
+        },
       },
       fontFamily: {
         serif: ["Playfair Display", "Georgia", "serif"],

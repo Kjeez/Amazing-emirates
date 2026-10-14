@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import SmoothScroll from "@/components/motion/SmoothScroll";
-import Footer from "@/app/sections/Footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -30,7 +29,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body suppressHydrationWarning className="min-h-full flex flex-col bg-ivory font-sans text-charcoal">
         <SmoothScroll>
           {children}
-          <Footer />
         </SmoothScroll>
       </body>
     </html>

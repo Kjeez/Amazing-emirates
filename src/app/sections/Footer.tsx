@@ -157,9 +157,16 @@ export default function Footer() {
             Platform
           </h3>
           <ul className="flex flex-col gap-6 text-[16px] font-serif text-charcoal/80">
-            {["Home", "About Us", "Our Mission", "How It Works", "Apply", "Contact"].map(item => (
-              <li key={item}>
-                <Link href="#" className="transition-colors hover:text-emerald">{item}</Link>
+            {[
+              { label: "Home", href: "/" },
+              { label: "About Us", href: "/about" },
+              { label: "Our Mission", href: "/about#mission" },
+              { label: "How It Works", href: "/about#how-it-works" },
+              { label: "Apply", href: "#nominate" },
+              { label: "Contact", href: "/about#contact" },
+            ].map((item) => (
+              <li key={item.label}>
+                <Link href={item.href} className="transition-colors hover:text-emerald">{item.label}</Link>
               </li>
             ))}
           </ul>
@@ -171,9 +178,16 @@ export default function Footer() {
             Categories
           </h3>
           <ul className="flex flex-col gap-6 text-[16px] font-serif text-charcoal/80">
-            {["Business Leaders", "Artists", "Athletes", "Innovators", "Changemakers", "All Profiles"].map(item => (
-              <li key={item}>
-                <Link href="#" className="transition-colors hover:text-emerald">{item}</Link>
+            {[
+              { label: "Business Leaders", href: "/categories" },
+              { label: "Artists", href: "/categories" },
+              { label: "Athletes", href: "/categories" },
+              { label: "Innovators", href: "/categories" },
+              { label: "Changemakers", href: "/categories" },
+              { label: "All Profiles", href: "/categories" },
+            ].map((item) => (
+              <li key={item.label}>
+                <Link href={item.href} className="transition-colors hover:text-emerald">{item.label}</Link>
               </li>
             ))}
           </ul>
@@ -185,7 +199,7 @@ export default function Footer() {
             Connect With Us
           </h3>
           
-          <a href="#" className="group mb-8 flex items-center justify-between">
+          <a href="https://wa.me/971501234567" target="_blank" rel="noopener noreferrer" className="group mb-8 flex items-center justify-between">
             <div className="flex items-center gap-5">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-emerald text-white">
                 <IconWhatsApp />
@@ -198,7 +212,7 @@ export default function Footer() {
             <span className="text-charcoal/40 transition-transform group-hover:translate-x-1">→</span>
           </a>
 
-          <a href="#" className="group mb-8 flex items-center justify-between">
+          <a href="tel:+97141234567" className="group mb-8 flex items-center justify-between">
             <div className="flex items-center gap-5">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-emerald text-white">
                 <IconPhone />

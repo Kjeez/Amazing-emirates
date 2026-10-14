@@ -8,6 +8,8 @@
   --color-emerald: #006d5b;
   --color-charcoal: #1a1a1a;
   --color-warmgray: #8c8c8c;
+  --color-crimson: #C8102E;
+  --color-crimson-hover: #A50D24;
   --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
   --font-sans: var(--font-inter), Inter, system-ui, sans-serif;
   --tracking-widest: 0.2em;
